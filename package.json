@@ -1,26 +1,14 @@
 {
-  "name": "youtube-downloader-api",
-  "version": "5.0.0",
-  "description": "API para descargar audio y video de YouTube con enlaces acortados y reintentos automáticos",
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API sencilla",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "axios": "^1.6.0",
-    "cors": "^2.8.5"
-  },
-  "keywords": [
-    "youtube",
-    "api",
-    "downloader",
-    "audio",
-    "video",
-    "express",
-    "axios"
-  ],
-  "author": "Tu Nombre",
-  "license": "MIT"
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2"
+  }
 }
