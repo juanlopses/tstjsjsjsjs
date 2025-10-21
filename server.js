@@ -26,9 +26,8 @@ async function shortenUrl(longUrl) {
  */
 app.get("/", (req, res) => {
   res.json({
-    name: "YouTube Downloader API",
-    author: "Tu Nombre",
-    version: "1.0.0",
+    name: "YT API",
+    version: "beta",
     endpoints: {
       "/ytmp3": {
         description: "Convierte un video de YouTube a audio MP3.",
